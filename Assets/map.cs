@@ -17,7 +17,7 @@ public class map : MonoBehaviour
 
     void Start()
     {
-        player.transform.position = ChankToPosition(new Vector2(DispChankSize, DispChankSize) / 2, 200);
+        player.transform.position = ChankToPosition(new Vector2(DispChankSize, DispChankSize) / 2, 100);
 
         for (int x = 0; x < DispChankSize; x++)
         {

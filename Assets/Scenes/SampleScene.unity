@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09c89d5393f26b849b2b51444cc9658c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 465081085}
   MainCamera: {fileID: 963194225}
 --- !u!4 &465081084
 Transform:
@@ -178,9 +179,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465081082}
   serializedVersion: 2
-  m_Mass: 10
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 1
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
